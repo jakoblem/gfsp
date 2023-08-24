@@ -123,7 +123,7 @@ def num_zak_modular(f_num, lamb, xx, gam, kmax, kmin=None):
     zak = np.sqrt(lamb.T) * np.sum(f_num(lamb*(xx+k)) * np.exp(-2.0*np.pi*1.0j*k*gam), axis=1).real
     return zak[0]
 
-def zeros(f_num, var_int, delt, *args, **kwargs):
+def f_zeros(f_num, var_int, delt, *args, **kwargs):
     """
     Find zeros of a numerical function within a given interval.
     
