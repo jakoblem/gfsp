@@ -24,4 +24,4 @@ init_printing()
 
 ## Example of usage
 
-See the file `Hermite_Paper_scrpit.ipynb`
+See the file `Hermite_Paper_Reproductions.ipynb`
